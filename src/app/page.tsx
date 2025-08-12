@@ -1,12 +1,15 @@
 import ModeToggle from '@/components/DarkMode/ModeToggle';
-import { LoginButton } from '@/components/LoginButton';
+import { Button } from '@/components/ui/button';
 import React from 'react';
+import Link from 'next/link'; // Corrected import
 
 const page = () => {
   return (
     <div>
       <ModeToggle />
-      <LoginButton/>
+      <Link href='/login'>
+        <Button variant='outline'>Login</Button>
+      </Link>
     </div>
   );
 };
