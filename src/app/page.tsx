@@ -1,7 +1,7 @@
 import ModeToggle from '@/components/DarkMode/ModeToggle';
 import { Button } from '@/components/ui/button';
 import React from 'react';
-import Link from 'next/link'; // Corrected import
+import Link from 'next/link'; 
 
 const page = () => {
   return (
