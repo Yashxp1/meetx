@@ -5,7 +5,7 @@ export async function middleware(request: NextRequest) {
   const sessionCookie = getSessionCookie(request);
   const { pathname } = request.nextUrl;
 
-  const protectedRoutes = ['/home', '/dashboard'];
+  const protectedRoutes = [ '/dashboard'];
 
   const publicRoutes = ['/', '/login'];
 
