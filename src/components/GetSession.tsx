@@ -11,7 +11,9 @@ const GetSession = () => {
 
   return (
     <div className="w-54">
-      <p className="border text-center hover:bg-zinc-800 transition-colors rounded-xl py-4">{user.email}</p>
+      <p className="border text-center hover:bg-zinc-800 transition-colors rounded-xl py-4">
+        {user.email}
+      </p>
     </div>
   );
 };
